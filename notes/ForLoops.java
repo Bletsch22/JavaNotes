@@ -1,4 +1,4 @@
-package Notes;
+package notes;
 
 public class ForLoops {
 
@@ -6,7 +6,7 @@ public class ForLoops {
 		// TODO Auto-generated method stub
 
 		//For loops 
-		// Good for looping through lists and batchs of items.
+		// Good for looping through lists and batch of items.
 		// i ++ is also i + i or i += 1. it just adds 1 + to i .
 		for (int i = 0; i < 10; i++) {
 			System.out.println(i);
@@ -64,12 +64,7 @@ public class ForLoops {
 		
 		String userWord = "Amazing!";
 		
-		String longString = "";
-		
-		int length = userWord.length();
-	
-		for (int i = 0; i <= userWord.length();i++) {
-			longString += userWord; 	
+		for (int i = 0; i <= userWord.length();i++) { 	
 		}
 		
 		
